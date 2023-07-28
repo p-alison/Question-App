@@ -43,6 +43,9 @@ struct secondQuestion: View {
             
         } // for vStack
         Image(image)
+            .resizable(resizingMode: .stretch)
+            .aspectRatio(contentMode: .fit)
+            .padding()
         
     } // for view
     
